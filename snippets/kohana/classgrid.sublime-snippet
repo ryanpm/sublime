@@ -1,0 +1,46 @@
+<snippet>
+	<content><![CDATA[
+<?php defined('SYSPATH') or die('No direct script access.');
+
+class Grid_${1} extends Lib_Grid{
+
+	public \$model='${2}';
+
+	function getGridId(\$row){
+		return \$row->id;
+	}
+
+	function getCell(\$row){
+		return array();
+	}
+
+	function updateField(&\$orm,\$POST){
+    	\$orm->updated_at  = date('Y-m-d');
+    }
+
+    function addField(&\$orm,\$POST){
+        \$orm->created_at = date('Y-m-d');
+        \$this->updateField(\$orm,\$POST);
+    }
+
+    function setGrid() {
+
+        \$this->jQGrid()->sortname = '';
+        \$this->jQGrid()->sortorder = 'desc';
+
+        \$col	= \$this->addColModel('_ID_');
+        \$col->editable = true;
+        \$col->width = 150;
+
+        \$this->jQGrid()->setAutoHideControl(true);
+
+    }
+
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>classgrid</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
