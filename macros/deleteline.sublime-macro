@@ -1,0 +1,20 @@
+[
+	{
+		"args":
+		{
+			"action_args":
+			{
+			},
+			"action_command": "vi_delete",
+			"motion_args":
+			{
+				"to": "line"
+			},
+			"motion_clip_to_line": false,
+			"motion_command": "expand_selection",
+			"motion_inclusive": false,
+			"motion_mode": 0
+		},
+		"command": "vi_eval"
+	}
+]
