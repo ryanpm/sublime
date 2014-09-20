@@ -1,0 +1,24 @@
+[
+	{ "keys": ["ctrl+alt+f"], "command": "run_macro_file","args":{"file":"Packages/User/macros/makefunction.sublime-macro"} },
+	{ "keys": ["ctrl+shift+."], "command": "run_macro_file","args":{"file":"Packages/User/macros/arrow2.sublime-macro"} },
+	{ "keys": ["ctrl+shift+,"], "command": "run_macro_file","args":{"file":"Packages/User/macros/appendComma.sublime-macro"} },
+	{ "keys": ["ctrl+shift+;"], "command": "run_macro_file","args":{"file":"Packages/User/macros/appendSemiCol.sublime-macro"} },
+	{ "keys": ["ctrl+shift+c"], "command": "run_macro_file","args":{"file":"Packages/User/macros/copycursorword.sublime-macro"} },
+	{ "keys": ["ctrl+alt+v"], "command": "run_macro_file","args":{"file":"Packages/User/macros/replaceselected.sublime-macro"} },
+	{ "keys": ["ctrl+shift+e"], "command": "run_macro_file","args":{"file":"Packages/User/macros/echovar.sublime-macro"} },
+	{ "keys": ["ctrl+alt+b"], "command": "run_macro_file","args":{"file":"Packages/User/macros/br.sublime-macro"} },
+	{ "keys": ["ctrl+alt+enter"], "command": "run_macro_file","args":{"file":"Packages/User/macros/autobracket.sublime-macro"} },
+	{ "keys": ["ctrl+alt+d"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["ctrl+alt+shift+enter"], "command": "run_macro_file", "args": {"file": "Packages/User/macros/newlineoutsidebracket.sublime-macro"} },
+	{ "keys": ["ctrl+."], "command": "run_macro_file", "args": {"file": "Packages/User/macros/endline_dot.sublime-macro"} },
+	{ "keys": ["ctrl+shift+-"], "command": "run_macro_file", "args": {"file": "Packages/User/macros/arrow1.sublime-macro"} },
+	{ "keys": ["ctrl+alt+r"], "command": "run_macro_file", "args": {"file": "Packages/User/macros/remove_wrap.sublime-macro"} },
+	{ "keys": ["ctrl+alt+t"], "command": "run_macro_file", "args": {"file": "Packages/User/macros/atrim.sublime-macro"} },
+	{ "keys": ["ctrl+alt+="], "command": "run_macro_file", "args": {"file": "Packages/User/macros/appendEqual.sublime-macro"} },
+	{ "keys": ["ctrl+k", "ctrl+1"], "command": "run_macro_file", "args": {"file": "Packages/User/select_post_in_str.sublime-macro"} },
+	{ "keys": ["ctrl+k", "ctrl+2"], "command": "run_macro_file", "args": {"file": "Packages/User/put_varname.sublime-macro"} },
+	{ "keys": ["ctrl+k", "ctrl+3"], "command": "run_macro_file", "args": {"file": "Packages/User/replace_post_in_str.sublime-macro"} },
+	{ "keys": ["f12"], "command": "goto_definition" },
+	{ "keys": ["ctrl+shift+r"], "command": "reveal_in_side_bar" }
+
+]
